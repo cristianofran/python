@@ -1,2 +1,2 @@
 # Python
-Meu repositório python.
+Neste repositório, irei toda semana, disponibilizar scripts em Python.
