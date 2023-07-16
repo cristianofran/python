@@ -11,5 +11,9 @@ search_box = driver.find_element(by=By.NAME, value="q")
 search_box.send_keys("iPhone 14 Pro Max 1TB")
 search_box.send_keys(Keys.ENTER)
 
+shopping = driver.find_element(by=By.XPATH, value="//*[text()='Shopping']")
+link = shopping.find_element(by=By.XPATH, value="..")
+link.click()
+
 time.sleep(30)
 driver.quit()
